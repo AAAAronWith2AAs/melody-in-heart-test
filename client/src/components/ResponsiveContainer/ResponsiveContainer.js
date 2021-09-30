@@ -57,13 +57,20 @@ class DesktopContainer extends Component {
             >
               <Container>
                 <Menu.Item as="a">
-                  <Link to="/">Home</Link>
+                  <Link to="/">MIH</Link>
                 </Menu.Item>
                 <Menu.Item as="a">
-                  <Link to="/aboutUs">About Us</Link>
+                  <Link to="/about">Shows</Link>
                 </Menu.Item>
-                <Menu.Item as="a">Invest</Menu.Item>
-                <Menu.Item as="a">Contact Us</Menu.Item>
+                <Menu.Item as="a">
+                  <Link to="/about">About</Link>
+                </Menu.Item>
+                <Menu.Item as="a">
+                  <Link to="/about">Store</Link>
+                </Menu.Item>
+                <Menu.Item as="a">
+                  <Link to="/about">Contact</Link>
+                </Menu.Item>
               </Container>
             </Menu>
           </Segment>
